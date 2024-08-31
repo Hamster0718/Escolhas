@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel = "stylesheet" href = "style.css"> 
+    
+      
+<!-- FONTE BOTÃO !-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  
+<!-- FONTE TEXTO !-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  
+<!-- FONTE RODAPÉ !-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+  
+<!-- TÍTULO QUE FICA NO TOPO DA GUIA !-->
+<title> Ana e o tesouro perdido </title>
+  
+
+  </head>
+  <body>
+    <main>
+      
+      <!-- PRIMEIRA TELA DE CARREGAMENTO !-->
+      <div class="passo ativo" id="passo-0">
+        <h1> Ana e o tesouro perdido </h1>
+       <img src="logo.png">
+        <p> Ana é uma exploradora corajosa que ouviu falar de um tesouro escondido em uma ilha misteriosa. Ela decide embarcar em uma aventura para encontrar esse tesouro. No entanto, o caminho é cheio de desafios e escolhas difíceis. Cada decisão que Ana toma pode aproximá-la ou afastá-la do tesouro </p>
+        
+        <button class="proxima" data-proximo= "1"> Ir de barco a remo ⛵ </button>
+        
+        <button class="proxima" data-proximo= "2"> Ir de navio veleiro 🚢 </button>
+      </div>
+      
+       <!-- BOTÃO ESCOLHA 1 !-->
+      <div class="passo" id="passo-1">
+       <img src="logo.png">
+        <p> Um barco simples,mas exige esforço e pode ser lento</p>
+        
+        <button class="proxima" data-proximo= "3"> Rumo ao norte ⬆ </button>
+        
+        <button class="proxima" data-proximo= "4"> Rumo ao sul ⬇ </button>
+      </div>
+      
+       <!-- BOTÃO ESCOLHA 2 !-->
+      <div class="passo" id="passo-2">
+       <img src="logo.png">
+        <p> Mais rápido mas pode passar por tempestades por causa dos ventos</p>
+        
+        <button class="proxima" data-proximo= "3"> Rumo ao norte ⬆ </button>
+        
+        <button class="proxima" data-proximo= "4"> Rumo ao sul ⬇ </button>
+      </div>
+      
+      
+       <!-- BOTÃO ESCOLHA 3 !-->
+      <div class="passo" id="passo-3">
+       <img src="logo.png">
+        <p> Passou por tempestades e muita turbulencia, mas avistou uma caverna</p>
+        
+        <button class="proxima" data-proximo= "5"> Entrar na caverna 🌋 </button>
+        
+        <button class="proxima" data-proximo= "6"> Evitar a caverna e seguir em frente 🌅 </button>
+      </div>
+      
+       <!-- BOTÃO ESCOLHA 4 !-->
+      <div class="passo" id="passo-4">
+       <img src="logo.png">
+        <p> Fez uma viagem tranquila, mas avistou uma caverna</p>
+        
+        <button class="proxima" data-proximo= "5"> Entrar na caverna 🌋 </button>
+        
+        <button class="proxima" data-proximo= "6"> Evitar a caverna e seguir em frente 🌅 </button>
+      </div>
+      
+       <!-- BOTÃO ESCOLHA 5 !-->
+      <div class="passo" id="passo-5">
+       <img src="logo.png">
+        <p> Perca de tempo, não tinha pistas </p>
+        
+        <button class="proxima" data-proximo= "7"> Encontra com priratas e lutar com eles 🏴‍☠️</button>
+        
+        <button class="proxima" data-proximo= "8"> Encontra com piratas e maudar a rota 🏴‍☠️</button>
+      </div>
+       <!-- BOTÃO ESCOLHA 6 !-->
+      <div class="passo" id="passo-6">
+       <img src="logo.png">
+        <p> Ótima escolha! Você seguiu em frente  </p>
+        
+        <button class="proxima" data-proximo= "7"> Encontra com priratas e lutar com eles 🏴‍☠️</button>
+        
+        <button class="proxima" data-proximo= "8"> Encontra com piratas e maudar a rota 🏴‍☠️</button>
+        
+          <!-- BOTÃO ESCOLHA 7 !-->
+      <div class="passo" id="passo-7">
+<img src="ganhou.png" alt="IMAGEM VOLTA INICIO">
+<p> Durante a luta você sofre uma queda e perde a memória - PASSO 7</p>
+<button class = "proximo" data-proximo = "0"> Reiniciar 🕹  </button>
+</div>
+         <!-- BOTÃO ESCOLHA 8 !--> 
+        <div class="passo" id="passo-8">
+<img src="ganhou.png" alt="IMAGEM GANHOU">
+<p> FINAL FELIZ - PASSO 8</p>
+<button class = "proximo" data-proximo = "0"> Reiniciar? 🕹  </button>
+</div>
+      </div>
+      </div>
+      
+    </main>
+  
+  <!-- CRÉDITOS -->
+<footer>
+<p> Jogo produzido por <a href="https://github.com/Hamster0718" target="_blank" class="Ana Laura-https://github.com/Hamster0718"> Ana Laura💕 </a> </p>
+</footer>
+  
+    <script src="sketch.js"></script>
+  </body>
+</html>
