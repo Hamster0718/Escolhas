@@ -1,0 +1,68 @@
+html, body {
+ font-family: "Lato", sans-serif;
+  background-color: rgb(178,241,241);
+  color: black;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  flex-direction: column;
+  background-image: url("fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+button {
+  font-family: "Lato", system-ui;
+  background-color: rgb(28,175,51);
+  border: solid 2px rgb(28,175,51);
+  border-radius:200px;
+  font-size: 30px;
+  margin: 20px;
+  color:black;
+}
+footer{
+  font-family: "Lato", system-ui;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display: block;
+}
+ 
+main {
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+}
+
+img {
+  width: 700px;
+}
+
+footer {
+  color: rgb(26,7,138);
+  font-family: "Sevillana", cursive;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nome-link {
+  font-family: "Sevillana", cursive;
+  color: rgb(26,7,138);
+  text-decoration: none;
+}
+
+.nome-link:hover {
+  text-decoration: underline;
+}
+
+h1{
+  text-align: center;
+  font-size:40px;
+  font-family: "Sevillana", cursive;
+}
